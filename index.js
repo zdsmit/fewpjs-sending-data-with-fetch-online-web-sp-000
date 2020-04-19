@@ -16,6 +16,6 @@ function submitData(name, email) {
     return response.json();
   })
   .then(function(object) {
-    document.body.innerHTML = object[ "id" ]
+    document.body.innerHTML = object["id"]
   })
 }
