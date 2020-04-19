@@ -19,7 +19,7 @@ function submitData(name, email) {
     document.body.innerHTML = object["id"]
   })
   .catch(function(error) {
-    alert("Sorry, there was a problem!")
+    alert("Unauthorized Access")
     console.log(error.message)
   })
 }
