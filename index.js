@@ -18,4 +18,8 @@ function submitData(name, email) {
   .then(function(object) {
     document.body.innerHTML = object["id"]
   })
+  .catch(function(error) {
+    alert("Sorry, there was a problem!")
+    console.log(error.message)
+  })
 }
