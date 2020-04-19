@@ -17,9 +17,5 @@ function submitData(name, email) {
   })
   .then(function(object) {
     console.log(object)
-    let ul = document.createElement('ul')
-    let li = document.createElement('li')
-    li.innerText = object.id
-    ul.appendChild('li')
   })
 }
